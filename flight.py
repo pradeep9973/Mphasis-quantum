@@ -1,7 +1,7 @@
 class Flight:
     def __init__(self, dep_key, dep_dt, orig_cd, dest_cd, flt_num, dep_dtml, arr_dtml,
                  dep_dtmz, arr_dtmz, c_cap_cnt, c_aul_cnt, c_pax_cnt, c_avail_cnt,
-                 y_cap_cnt, y_aul_cnt, y_pax_cnt, y_avail_cnt):
+                 y_cap_cnt, y_aul_cnt, y_pax_cnt, y_avail_cnt,status):
         self.dep_key = dep_key
         self.dep_dt = dep_dt
         self.orig_cd = orig_cd
@@ -19,6 +19,7 @@ class Flight:
         self.y_aul_cnt = y_aul_cnt
         self.y_pax_cnt = y_pax_cnt
         self.y_avail_cnt = y_avail_cnt
+        self.status = status
 
     def __repr__(self):
         return (f"Flight {self.flt_num} ({self.orig_cd} -> {self.dest_cd}):\n"

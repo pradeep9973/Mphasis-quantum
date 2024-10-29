@@ -32,7 +32,7 @@ class Graph:
                     row['FLT_NUM'], row['DEP_DTML'], row['ARR_DTML'], row['DEP_DTMZ'], 
                     row['ARR_DTMZ'], row['C_CAP_CNT'], row['C_AUL_CNT'], row['C_PAX_CNT'], 
                     row['C_AVAIL_CNT'], row['Y_CAP_CNT'], row['Y_AUL_CNT'], row['Y_PAX_CNT'], 
-                    row['Y_AVAIL_CNT']
+                    row['Y_AVAIL_CNT'], "available"
                 )
                 # Add the flight to the graph
                 self.add_flight(flight)
@@ -48,7 +48,7 @@ class Graph:
                     row['FLT_NUM'], row['DEP_DTML'], row['ARR_DTML'], row['DEP_DTMZ'], 
                     row['ARR_DTMZ'], row['C_CAP_CNT'], row['C_AUL_CNT'], row['C_PAX_CNT'], 
                     row['C_AVAIL_CNT'], row['Y_CAP_CNT'], row['Y_AUL_CNT'], row['Y_PAX_CNT'], 
-                    row['Y_AVAIL_CNT']
+                    row['Y_AVAIL_CNT'], "cancelled"
                 )
                 # Add the flight to the graph
                 self.add_flight(flight)

@@ -23,4 +23,4 @@ class PNR:
         self.conn_time_mins = conn_time_mins  # Connection time in minutes
 
     def __repr__(self):
-        return f"PNR({self.recloc}, {self.creation_dtz}, {self.cabin_cd}, {self.cos_cd}, {self.orig_cd} -> {self.dest_cd}, Flight {self.flt_num})"
+        return f"PNR({self.dep_key}, {self.dep_dt},Time {self.dep_dtmz} -> {self.arr_dtmz} ,{self.cabin_cd}, {self.cos_cd}, {self.orig_cd} -> {self.dest_cd})"
