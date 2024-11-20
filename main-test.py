@@ -162,6 +162,7 @@ available_flights_vuy = [flight for flight in airport.flights_out if flight.stat
 # for (pair1, pair2), penalty in qubo_constraints.items():
 #     bqm.add_interaction(pair1, pair2, penalty)
 
+
 # # The QUBO is now ready to be solved
 
 
